@@ -4,7 +4,9 @@
 <style>
 		body
 		   { background-image: url(blok.jpg);
-background-size: 1600px 1200px;		   
+background-repeat: no-repeat;
+		background-size: 1400px 4800px;
+			   
                 }  
  h1{
 
@@ -22,6 +24,11 @@ background-size: 1600px 1200px;
 		margin-left: 200px; 
 		margin-right: 200px; 
 		}
+		img.double-border {
+border: 5px solid #ddd;
+padding: 5px; /*Inner border size*/
+background: #fff; /*Inner border color*/
+}
 </style>
 </head>
 <Body>
@@ -56,7 +63,7 @@ background-size: 1600px 1200px;
 Podemos recurrir a estructuras como Bootstrap o 960grid para tener un apoyo importante. 
 Hoy en día hay muchos frameworks con los cuales podemos basarnos a la hora de diseñar un nuevo proyecto.
 Básicamente, los sitios web se componen y estructuran de la siguiente manera:</br>
-<img src="gsuez-estructura.png"></br></p>
+<img class="double-border" src="gsuez-estructura.png"></br></p>
 
 <center><H3>Contenedor</H3>
 <p>Esto es lo que definimos en la regla Body o en algun div de nuestra estructura. 
@@ -96,11 +103,11 @@ tratará de llenar esos espacios, con la consiguiente saturación de contenidos,
 Es muy útil cuando se desea que el lector siga un camino fijo y guiado, 
 además el de impedir que se distraiga con enlaces a otras páginas. 
 Por otra parte se puede causar al lector la sensación de estar encerrado si el camino es muy largo o poco interesante.</p></br>
-<img src="lineal.jpg"></br>
+<img class="double-border" src="lineal.jpg"></br>
 
 <center><H3>Estructura Jerárquica</H3>
 <p>La estructura jerárquica, como se observa en la siguiente figura:</br>
-<img src="jerarquica.jpg"></br>
+<img  class="double-border" src="jerarquica.jpg"></br>
 Es la típica estructura de árbol, en el que la raíz es la página de bienvenida, 
 ésta se puede también sustituir por la de contenido, en la que se exponen las diferentes secciones que contiene el sitio.
 La ventaja de esta estructura es que el usuario siempre está ubicado y puede moverse fácilmente por el sitio.
@@ -110,7 +117,7 @@ Gracias a que la mayoría de las páginas secundarias permiten regresar a la pá
 <p>En este modelo las páginas secundarias no se conectan entre sí, y se debe navegar por la página principal para ir
 de una secundaria a otra, es decir, la principal contiene enlaces a todas las secundarias, pero las secundarias sólo 
 contienen un entorno a la principal, tal cual se aprecia en la figura que sigue:</br>
-<img src="radial.jpg"></br>
+<img class="double-border" src="radial.jpg"></br>
 La ventaja de esta estructura es que facilita la navegación, los visitantes sólo tendrán que efectuar uno o dos clics para retornar a la página principal; 
 sin embargo, esto podría también ser un inconveniente porque obliga al usuario a regresar siempre a la página de inicio.</p>
 
@@ -118,6 +125,6 @@ sin embargo, esto podría también ser un inconveniente porque obliga al usuario
 <p>En ella se plantea un modelo en el que todas las páginas están relacionadas entre sí.
 Es una estructura ideal para sitios especializados en un tema, en la que se le permite al usuario una navegación 
 libre y sin limitaciones como la que vemos a continuación:</br>
-<img src="red.jpg"></br></p>
+<img  class="double-border"src="red.jpg"></br></p>
 </Body>
 </html>
