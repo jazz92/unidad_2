@@ -1,7 +1,21 @@
 <html>
     <head>
 <style>
+#destacada {
+  width: 120px;
+  height: 250px;
+}
 
+img {
+  border: none;
+  background: url(shadow-1000x1000.gif) no-repeat right bottom;
+padding: 5px 10px 10px 5px;
+}
+img.double-border {
+border: 5px solid #ddd;
+padding: 5px; /*Inner border size*/
+background: #fff; /*Inner border color*/
+}
 	p{ 
 		
 		font-family: Arial;
@@ -14,7 +28,7 @@
 		
 		background-image : url(blok.jpg);
 		background-repeat: no-repeat;
-		background-size: 1400px 3200px;
+		background-size: 1400px 4800px;
 		
 		}
 		
@@ -48,17 +62,28 @@ sea considerada un patron debe poseer ciertas caracteristicas. Una de ellas es q
  <center> <h2> Objetivos de los patrones </h2><center>
 
  
+
 <center><img  class="double-border" style= "width:600px; height:400px;"  src= "u.jpg"  ></center>
+
 <br>
-<center><p>Proporcionar catalogos de elementos reusables en el diseno de sistemas software.
-Evitar la reiteracion en la busqueda de soluciones a problemas ya conocidos y solucionados anteriormente.
-Formalizar un vocabulario comun entre disenadores.
-Estandarizar el modo en que se realiza el diseno.
-Facilitar el aprendizaje de las nuevas generaciones de disenadores condensando conocimiento ya existente.
+<center><p>
+
+
+
+
+Los patrones de diseno son una herramienta muy util.
+ Cualquier programador deberia conocer, 
+ por lo menos, los patrones mas utilizados. 
+ Y es que tenerlos en nuestra caja de herramientas nos puede ahorrar muchos dolores de cabeza.
+
+Aunque en este artículo no vamos a hablar de patrones concretos, hay que tener en cuenta que estamos haciendo referencia
+ a patrones aplicados a la programación orientada a objetos.
 </P></center>
 
  <h2>Los patrones de diseno pretenden:</h2>
- <center><img class="double-border" style= "width:600px; height:400px;"  src= "p.jpg"  ></center>
+
+ <center><img     class="double-border" style= "width:600px; height:400px;"  src= "p.jpg"  ></center>
+
  <br>
  
 <p>Proporcionar catalogos de elementos reusables en el diseno de sistemas software.<br>
@@ -68,8 +93,34 @@ Estandarizar el modo en que se realiza el diseno.<br>
 Facilitar el aprendizaje de las nuevas generaciones de disenadores condensando conocimiento ya existente.</p>
 
  
+
+<h2>¿Cuantos patrones de diseno existen? </h2>
+<center>
+<p>Patrones de diseno hay muchos. Muchisimos. Y siguen apareciendo patrones nuevos cada poco tiempo. 
+El desarrollo de aplicaciones es una disciplina en constante cambio. Por tanto los problemas a los que nos enfrentamos los 
+desarrolladores tambien cambian. Así que las herramientas utilizadas, también se van actualizando y mejorando.
+
+Es imposible conocer todos los patrones de diseno. Lo más util es tener un catalogo de patrones que podamos consultar. A la hora de desarrollar
+ una aplicacion, podremos consultar nuestro catalogo buscando patrones que nos ayuden a solucionar problemas de diseno concretos.
+
+Algunos ejemplos de catalogos podemos encontrarlos en OODesign, en la Wikipedia, o el ya famoso libro Design Patterns: Elements of Reusable 
+Object-Oriented Software, cuyos autores son conocidos como La banda de los cuatro.</p></center>
+<br><center>
+
+<center><img  class="double-border" id= "destacada" style= "width:600px; height:400px;"  src= "si.png"  ></center>
+
+<br><p>
+ 
+ “Los patrones de diseño son el esqueleto de las soluciones a problemas comunes en el desarrollo de software.”
+
+En otras palabras, brindan una solución ya probada y documentada a problemas de desarrollo de software que están sujetos
+ a contextos similares. Debemos tener presente los siguientes elementos de un patrón: su nombre, el problema 
+ (cuando aplicar un patrón), la solución (descripción abstracta del problema) y las consecuencias (costos y beneficios).
+ </br>
+ </p></center>
  
 </body>
+
 
 
 </html>
