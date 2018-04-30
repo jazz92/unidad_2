@@ -1,6 +1,5 @@
 body	
-
-	{
+    {
 		background-image: url(blok.jpg);
 		font-family: arial;
 		text-align: justify;
@@ -8,3 +7,10 @@ body
 		background-size: 1600px 3800px;
 	
 	}
+
+
+	img{
+display:block;
+margin:auto;
+}
+
